@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title("Auth demo!")
 
+st.write(st.secrets)
+
 
 x = st.file_uploader("Upload a file")
 
